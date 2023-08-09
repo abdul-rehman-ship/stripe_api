@@ -3,7 +3,7 @@ const app = express();
 // This is a public sample test API key.
 // Don’t submit any personally identifiable information in requests made with this key.
 // Sign in to see your own test API key embedded in code samples.
-const stripe = require("stripe")('sk_test_51KGj2rFSKLqPZvHzQx1uYFfblXY2EtCxDNew4VElzJFlVUXTa2hXLgllivcCTQXL4lVbjaWVPWHVl6JVrgEO2CTA00l4W4OkZ9');
+const stripe = require("stripe")('pk_live_51NZVu0GsHAW8hLzzYBYrqhxStTZcaIV2FXd13p50w7AXm3H0M1XkNlYnxWwSyYXhV3XJcoza2w29YrC5kNwj8IZy00qDLqeig0');
 
 app.use(express.static("public"));
 app.use(express.json());
